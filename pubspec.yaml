@@ -1,0 +1,84 @@
+name: loctroi_canlua_external
+description: Cân lúa nông dân - LTG
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # flutter pub run build_runner build --delete-conflicting-outputs
+  # flutter pub run intl_utils:generate
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.2
+  intl_utils: ^2.6.1
+  dropdown_search: ^5.0.2
+  flutter_easyloading: ^3.0.3
+  fluttertoast: ^8.0.9
+  flutter_datetime_picker: ^1.5.1
+  equatable: ^2.0.3
+  expandable: ^5.0.1
+  # SMS OTB layout
+  pin_code_fields: ^7.4.0
+  # SMS OTB firebase auth
+  # firebase_auth: ^3.3.18
+  # firebase_core: ^1.17.0
+  # LOCAL DATABASE
+  drift: ^1.5.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.0.0
+  path: ^1.8.0
+  # phone number
+  intl_phone_field: ^3.1.0
+  # base_project:
+  #   path: "../base_project"
+  base_project:
+    path: "./packages/base_project"
+
+  ## Firebase
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  
+  url_launcher: ^6.1.11
+
+  # base_project:
+  #   git:
+  #     url: git@bitbucket.org:nmqwan/flutter_project_base.git
+  #     ref: dev
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  retrofit_generator: any
+  build_runner: any
+  json_serializable: any
+  lint: ^1.8.2
+  flutter_lints: ^2.0.1
+  # LOCAL DATABASE
+  drift_dev: ^1.5.0
+
+  # change_app_package_name: ^1.0.0
+  # flutter pub run change_app_package_name:main com.new.package.name
+  rename: ^2.1.1
+  # flutter pub global run rename --appname "Cân lúa nông dân - LTG"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+flutter_intl:
+  enabled: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/app-icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21

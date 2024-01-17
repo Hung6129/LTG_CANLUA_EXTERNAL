@@ -1,0 +1,41 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+BDiaPhuongEntity _$BDiaPhuongEntityFromJson(Map<String, dynamic> json) =>
+    BDiaPhuongEntity(
+      madp: json['madp'] as String?,
+      tendp: json['tendp'] as String?,
+      tenkhac: json['tenkhac'] as String?,
+      tentat: json['tentat'] as String?,
+      vungnl: json['vungnl'] as String?,
+      mapl: json['mapl'] as String?,
+      dinhvi: json['dinhvi'] as String?,
+      trangthai: json['trangthai'] as String?,
+      modifiedon: json['modifiedon'] as String?,
+      modifiedby: json['modifiedby'] as String?,
+      iden: json['iden'] as num?,
+      makvfc: json['makvfc'] as String?,
+      machinhanh: json['machinhanh'] as String?,
+      mavung: json['mavung'] as String?,
+      chatbot: json['chatbot'] as bool?,
+    );
+
+Map<String, dynamic> _$BDiaPhuongEntityToJson(BDiaPhuongEntity instance) =>
+    <String, dynamic>{
+      'madp': instance.madp,
+      'tendp': instance.tendp,
+      'tenkhac': instance.tenkhac,
+      'tentat': instance.tentat,
+      'vungnl': instance.vungnl,
+      'mapl': instance.mapl,
+      'dinhvi': instance.dinhvi,
+      'trangthai': instance.trangthai,
+      'modifiedon': instance.modifiedon,
+      'modifiedby': instance.modifiedby,
+      'iden': instance.iden,
+      'makvfc': instance.makvfc,
+      'machinhanh': instance.machinhanh,
+      'mavung': instance.mavung,
+      'chatbot': instance.chatbot,
+    };

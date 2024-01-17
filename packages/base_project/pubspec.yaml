@@ -1,0 +1,67 @@
+name: base_project
+description: A new Flutter project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  # sdk: ">=2.15.1 <3.0.0"
+  sdk: ">=2.16.1 <3.0.0"
+  flutter: ">=2.10.0-0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  flutter_bloc: ^8.0.1
+  shared_preferences: ^2.0.13
+  equatable: ^2.0.3
+  logger: ^1.1.0
+  google_fonts: ^4.0.3
+  crypto: ^3.0.1
+  json_serializable: ^6.1.4
+  package_info_plus: ^3.0.3
+  path_provider: ^2.0.11
+
+  # pub global run rename --bundleId com.onatcipli.networkUpp
+  # pub global run rename --appname "Network Upp"
+  rename: ^2.0.1
+
+  # Dependency injection
+  get_it: ^7.2.0
+
+  # ----------HTTP API----------
+  # flutter pub run build_runner build --delete-conflicting-outputs
+  dio: ^4.0.0
+  retrofit: ^3.0.1+1
+  dio_logger: ^4.0.8+8
+
+  # Cache http
+  dio_cache_interceptor: ^3.3.0
+  dio_cache_interceptor_hive_store: ^3.2.0
+  hive: ^2.2.3
+
+  # ---------- Widget ----------
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.5
+
+  # format input text
+  pattern_formatter: ^2.0.0
+
+  # UUID
+  uuid: ^3.0.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.0.1
+  flutter_lints: ^2.0.1
+  retrofit_generator: any
+  build_runner: any
+analyzer:
+  enable-experiment:
+    - nonfunction-type-aliases
+
+  # To add assets to your application, add an assets section, like this:
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/

@@ -1,0 +1,25 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'b_so_phieu_entity.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+BSoPhieuEntity _$BSoPhieuEntityFromJson(Map<String, dynamic> json) =>
+    BSoPhieuEntity(
+      sophieu: json['sophieu'] as String?,
+      tentinh: json['tentinh'] as String?,
+      tenhuyen: json['tenhuyen'] as String?,
+      tenxa: json['tenxa'] as String?,
+      xa: json['xa'] as String?,
+    );
+
+Map<String, dynamic> _$BSoPhieuEntityToJson(BSoPhieuEntity instance) =>
+    <String, dynamic>{
+      'sophieu': instance.sophieu,
+      'tentinh': instance.tentinh,
+      'tenhuyen': instance.tenhuyen,
+      'tenxa': instance.tenxa,
+      'xa': instance.xa,
+    };

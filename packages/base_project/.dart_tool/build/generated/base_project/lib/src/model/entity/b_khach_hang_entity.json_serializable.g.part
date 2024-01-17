@@ -1,0 +1,15 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+BKhachHangEntity _$BKhachHangEntityFromJson(Map<String, dynamic> json) =>
+    BKhachHangEntity(
+      makhach: json['makhach'] as String?,
+      tenkhach: json['tenkhach'] as String?,
+    );
+
+Map<String, dynamic> _$BKhachHangEntityToJson(BKhachHangEntity instance) =>
+    <String, dynamic>{
+      'makhach': instance.makhach,
+      'tenkhach': instance.tenkhach,
+    };

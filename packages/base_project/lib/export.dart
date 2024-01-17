@@ -1,0 +1,1 @@
+export 'package:base_project/src/base_project.dart';

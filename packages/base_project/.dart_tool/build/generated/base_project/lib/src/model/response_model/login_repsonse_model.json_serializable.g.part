@@ -1,0 +1,49 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+LoginRepsonseModel _$LoginRepsonseModelFromJson(Map<String, dynamic> json) =>
+    LoginRepsonseModel(
+      userName: json['userName'] as String?,
+      fullName: json['fullName'] as String?,
+      phone: json['phone'] as String?,
+      email: json['email'] as String?,
+      token: json['token'] as String?,
+      mobile: json['mobile'],
+      appid: json['appid'] as String?,
+      diachi: json['diachi'] as String?,
+      hoten: json['hoten'] as String?,
+      iden: json['iden'] as num?,
+      huyen: json['huyen'] as String?,
+      sodienthoai: json['sodienthoai'] as String?,
+      tenhuyen: json['tenhuyen'] as String?,
+      tentinh: json['tentinh'] as String?,
+      tenxa: json['tenxa'] as String?,
+      tinh: json['tinh'] as String?,
+      xa: json['xa'] as String?,
+      errorMessage: json['errorMessage'] as String?,
+      userType: json['userType'] as num?,
+    );
+
+Map<String, dynamic> _$LoginRepsonseModelToJson(LoginRepsonseModel instance) =>
+    <String, dynamic>{
+      'userName': instance.userName,
+      'sodienthoai': instance.sodienthoai,
+      'hoten': instance.hoten,
+      'fullName': instance.fullName,
+      'diachi': instance.diachi,
+      'phone': instance.phone,
+      'email': instance.email,
+      'tinh': instance.tinh,
+      'huyen': instance.huyen,
+      'xa': instance.xa,
+      'tentinh': instance.tentinh,
+      'tenhuyen': instance.tenhuyen,
+      'tenxa': instance.tenxa,
+      'token': instance.token,
+      'mobile': instance.mobile,
+      'appid': instance.appid,
+      'errorMessage': instance.errorMessage,
+      'userType': instance.userType,
+      'iden': instance.iden,
+    };

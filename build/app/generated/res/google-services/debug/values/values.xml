@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">317579819035-vbp92o4f9abfqn0kegdc7lhcb6m1no9r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">317579819035</string>
+    <string name="google_api_key" translatable="false">AIzaSyDcPQUMhHHg9YNhwCr1QF8vsuYltb-EF28</string>
+    <string name="google_app_id" translatable="false">1:317579819035:android:642bb501275286f8f6a0be</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDcPQUMhHHg9YNhwCr1QF8vsuYltb-EF28</string>
+    <string name="google_storage_bucket" translatable="false">canluanongdan.appspot.com</string>
+    <string name="project_id" translatable="false">canluanongdan</string>
+</resources>

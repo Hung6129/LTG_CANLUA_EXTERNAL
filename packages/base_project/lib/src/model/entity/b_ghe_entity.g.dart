@@ -1,0 +1,54 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'b_ghe_entity.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+BGheEntity _$BGheEntityFromJson(Map<String, dynamic> json) => BGheEntity(
+      maghe: json['maghe'] as String?,
+      tenghe: json['tenghe'] as String?,
+      tenkhac: json['tenkhac'] as String?,
+      sophuongtien: json['sophuongtien'] as String?,
+      madoighe: json['madoighe'] as String?,
+      tendoighe: json['tendoighe'] as String?,
+      tenchughe: json['tenchughe'] as String?,
+      dienthoaichughe: json['dienthoaichughe'] as String?,
+      cmnd: json['cmnd'] as String?,
+      ngaycap: json['ngaycap'] as String?,
+      noicap: json['noicap'] as String?,
+      loaighe: json['loaighe'] as num?,
+      trangthai: json['trangthai'] as bool?,
+      createdon: json['createdon'] as String?,
+      createdby: json['createdby'] as String?,
+      modifiedon: json['modifiedon'] as String?,
+      modifiedby: json['modifiedby'] as String?,
+      iden: json['iden'] as num?,
+      tenloaighe: json['tenloaighe'],
+      ngaycapstr: json['ngaycapstr'],
+    );
+
+Map<String, dynamic> _$BGheEntityToJson(BGheEntity instance) =>
+    <String, dynamic>{
+      'maghe': instance.maghe,
+      'tenghe': instance.tenghe,
+      'tenkhac': instance.tenkhac,
+      'sophuongtien': instance.sophuongtien,
+      'madoighe': instance.madoighe,
+      'tendoighe': instance.tendoighe,
+      'tenchughe': instance.tenchughe,
+      'dienthoaichughe': instance.dienthoaichughe,
+      'cmnd': instance.cmnd,
+      'ngaycap': instance.ngaycap,
+      'noicap': instance.noicap,
+      'loaighe': instance.loaighe,
+      'trangthai': instance.trangthai,
+      'createdon': instance.createdon,
+      'createdby': instance.createdby,
+      'modifiedon': instance.modifiedon,
+      'modifiedby': instance.modifiedby,
+      'iden': instance.iden,
+      'tenloaighe': instance.tenloaighe,
+      'ngaycapstr': instance.ngaycapstr,
+    };
